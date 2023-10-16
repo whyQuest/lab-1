@@ -1,0 +1,24 @@
+﻿<Window x:Class="лаба_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:лаба_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="podezd" HorizontalAlignment="Left" Margin="140,52,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="142" Height="33" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="poverx" HorizontalAlignment="Left" Margin="140,146,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="142" Height="33"/>
+        <TextBox x:Name="kva" HorizontalAlignment="Left" Margin="140,243,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="142" Height="33"/>
+        <TextBox x:Name="cena" HorizontalAlignment="Left" Margin="140,336,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="142" Height="33"/>
+        <Label Content="К-ть під'їздів" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Height="33" Width="130" FontSize="18"/>
+        <Label Content="К-ть поверхів" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top" Height="33" Width="130" FontSize="18"/>
+        <Label Content="К-ть квартир&#xD;&#xA;(на поверху)" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" Height="65" Width="130" FontSize="18"/>
+        <Label Content="Ціна квартири" HorizontalAlignment="Left" Margin="10,336,0,0" VerticalAlignment="Top" Height="33" Width="130" FontSize="18"/>
+        <Button Content="Розрахувати" HorizontalAlignment="Left" Margin="599,0,0,0" VerticalAlignment="Center" Height="38" Width="178" Click="Button_Click" FontSize="18"/>
+        <TextBlock x:Name="r3" HorizontalAlignment="Left" Margin="400,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="142" FontSize="14"><Run Language="uk-ua" Text="Загальна вартість квартир"/></TextBlock>
+        <TextBlock x:Name="r2" HorizontalAlignment="Left" Margin="400,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="142" FontSize="14"><Run Language="uk-ua" Text="К-ть квартир у будинку"/></TextBlock>
+        <TextBlock x:Name="r1" HorizontalAlignment="Left" Margin="400,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="142" FontSize="14"><Run Language="ru-ru" Text="К-ть квартир у "/><Run Language="uk-ua" Text="під'їзді"/></TextBlock>
+
+    </Grid>
+</Window>
