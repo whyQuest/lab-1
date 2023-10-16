@@ -15,23 +15,36 @@ namespace лаба_1
 
         public house(int entrances, int floors, int apartmentsPerFloor, double priceApart)
         {
-            if (entrances <= 0)
-                throw new ArgumentException("Кількість під'їздів має бути більше нуля.");
-
-            if (floors <= 0)
-                throw new ArgumentException("Кількість поверхів має бути більше нуля.");
-
-            if (apartmentsPerFloor <= 0)
-                throw new ArgumentException("Кількість квартир на поверсі має бути більше нуля.");
-
-            if (priceApart <= 0)
-                throw new ArgumentException("Вартість квартири має бути більше нуля.");
-
             this.entrances = entrances;
             this.floors = floors;
             this.apartmentsPerFloor = apartmentsPerFloor;
             this.priceApart = priceApart;
         }
+
+        public house(int entrances, int floors, int apartmentsPerFloor)
+        {
+            this.entrances = entrances;
+            this.floors = floors;
+            this.apartmentsPerFloor = apartmentsPerFloor;
+            this.priceApart = 0.0;
+        }
+
+        public house(int floors, int apartmentsPerFloor)
+        {
+            this.entrances = 0;
+            this.floors = floors;
+            this.apartmentsPerFloor = apartmentsPerFloor;
+            this.priceApart = 0.0;
+        }
+
+        public house()
+        {
+            this.entrances = 20;
+            this.floors = 24;
+            this.apartmentsPerFloor = 40;
+            this.priceApart = 150000;
+        }
+
 
         public int Entrances
         {

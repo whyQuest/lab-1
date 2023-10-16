@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="podezd" HorizontalAlignment="Left" Margin="140,52,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="142" Height="33" TextChanged="TextBox_TextChanged"/>
-        <TextBox x:Name="poverx" HorizontalAlignment="Left" Margin="140,146,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="142" Height="33"/>
-        <TextBox x:Name="kva" HorizontalAlignment="Left" Margin="140,243,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="142" Height="33"/>
-        <TextBox x:Name="cena" HorizontalAlignment="Left" Margin="140,336,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="142" Height="33"/>
+        <TextBox x:Name="podezd" HorizontalAlignment="Left" Margin="140,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="33" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="poverx" HorizontalAlignment="Left" Margin="140,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="33"/>
+        <TextBox x:Name="kva" HorizontalAlignment="Left" Margin="140,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="33"/>
+        <TextBox x:Name="cena" HorizontalAlignment="Left" Margin="140,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="33"/>
         <Label Content="К-ть під'їздів" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Height="33" Width="130" FontSize="18"/>
         <Label Content="К-ть поверхів" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top" Height="33" Width="130" FontSize="18"/>
         <Label Content="К-ть квартир&#xD;&#xA;(на поверху)" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" Height="65" Width="130" FontSize="18"/>
